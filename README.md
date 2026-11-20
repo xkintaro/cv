@@ -1,20 +1,20 @@
 <a href="README.md">
- <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
+  <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
 </a>
 <a href="README-TR.md">
- <img src="https://img.shields.io/badge/Dil-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
+  <img src="https://img.shields.io/badge/Language-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
 </a>
 
-   <br />
-   <br />
+  <br />
+  <br />
 
 <div align="center">
-  <img src="public/logo.png" width="120" height="120" />
+  <img src="public/mascot.png" width="120" height="120" />
   <br />
   <br />
 
   <p>
-    My CV - 2024
+     My CV from 2024, prepared as a single page website.
   </p>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -23,9 +23,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
   <p>
+    <a href="#demo">Demo</a> •
+    <a href="#about">About</a> •
     <a href="#features">Features</a> •
-    <a href="#technologies">Technologies</a> •
-    <a href="#installation">Installation</a> •
+    <a href="#tech">Tech</a> •
+    <a href="#setup">Setup</a> •
     <a href="#license">License</a>
   </p>
 
@@ -33,52 +35,58 @@
   <br />
 </div>
 
-## 📷 Demo Link
+## <a id="demo"></a> 📷 Demo
 
 - [https://xkintaro.github.io/cv/](https://xkintaro.github.io/cv/)
 
-## 📋 About
+## <a id="about"></a> 📋 About
 
-I prepared this project to present my CV in a more impressive and organized way. Instead of a classic CV, I wanted to create a more beautiful and readable structure. It contains my current CV as of 2024.
+I prepared this project to present my CV in a more organized and readable way than a classic CV. It contains my CV as of 2024 and is built with React and my own [Kintaro UI](https://github.com/xkintaro/kintaro-ui) library. The content of the page is in Turkish.
 
-## ✨ Features <a id="features"></a>
+## <a id="features"></a> ✨ Features
 
-- **Modern and Aesthetic Interface:** User-friendly, modern color palettes, and fluid design elements.
-- **Interactive Project Showcase:** Direct links to recently developed projects and interactive areas.
-- **Mobile Responsive Design:** Flawless and responsive viewing across all screen sizes (mobile, tablet, desktop).
+- **CV sections**: Personal information, about me, education and experience.
+- **Skills**: The software technologies and design tools I use.
+- **Recent projects**: Links to my recent projects, one of them with a video demo in a modal window.
 
-## 🛠️ Technologies <a id="technologies"></a>
+## <a id="tech"></a> 🛠️ Tech
 
-The main software, libraries, and tools used in the project are as follows:
+`React` · `Vite` · `Kintaro UI` · `CSS`
 
-- **React**: Component-based user interface library.
-- **Vite**: Fast and modern frontend build tool.
-- **kintaro-ui**: A UI library developed by me.
-- **React Icons**: Modern vector icon library.
-- **gh-pages**: Helper package used to publish the project directly on GitHub Pages.
+## <a id="setup"></a> 🚀 Setup
 
-## 🚀 Installation <a id="installation"></a>
+### Requirements
 
-You can follow the steps below to run the project in your local environment:
+- **Node.js**
 
-1. **Clone the repository:**
+### Step-by-Step Installation
+
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/xkintaro/cv.git
    cd cv
    ```
 
-2. **Install the dependencies:**
+2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
-3. **Start the development server:**
+   On Windows you can run `install-dependencies.bat` instead.
+
+3. **Start the development server**
+
    ```bash
    npm run dev
    ```
-   You can view the project by navigating to `http://localhost:5173` in your browser.
 
-## 📄 License <a id="license"></a>
+   On Windows you can run `run.bat` instead.
+
+Open the app at [http://localhost:5173/cv/](http://localhost:5173/cv/).
+
+## <a id="license"></a> 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 

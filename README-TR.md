@@ -1,20 +1,20 @@
 <a href="README.md">
- <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
+  <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
 </a>
 <a href="README-TR.md">
- <img src="https://img.shields.io/badge/Dil-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
+  <img src="https://img.shields.io/badge/Language-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
 </a>
 
   <br />
   <br />
 
 <div align="center">
-  <img src="public/logo.png" width="120" height="120" />
+  <img src="public/mascot.png" width="120" height="120" />
   <br />
   <br />
 
   <p>
-    My CV - 2024
+     Tek sayfalık bir web sitesi olarak hazırladığım 2024 tarihli CV'm.
   </p>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -23,9 +23,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
   <p>
+    <a href="#demo">Demo</a> •
+    <a href="#about">Hakkında</a> •
     <a href="#features">Özellikler</a> •
-    <a href="#technologies">Teknolojiler</a> •
-    <a href="#installation">Kurulum</a> •
+    <a href="#tech">Teknolojiler</a> •
+    <a href="#setup">Kurulum</a> •
     <a href="#license">Lisans</a>
   </p>
 
@@ -33,54 +35,60 @@
   <br />
 </div>
 
-## 📷 Demo Link
+## <a id="demo"></a> 📷 Demo
 
 - [https://xkintaro.github.io/cv/](https://xkintaro.github.io/cv/)
 
-## 📋 Hakkında
+## <a id="about"></a> 📋 Hakkında
 
-Bu projeyi CV’mi daha etkileyici ve düzenli bir şekilde sunmak için hazırladım. Klasik bir CV yerine, daha güzel ve okunabilir bir yapı oluşturmak istedim. 2024 itibarıyla güncel CV’mi içeriyor.
+Bu projeyi CV'mi klasik bir CV'den daha düzenli ve okunabilir bir şekilde sunmak için hazırladım. 2024 itibarıyla güncel CV'mi içerir ve React ile kendi [Kintaro UI](https://github.com/xkintaro/kintaro-ui) kütüphanemle hazırlanmıştır. Sayfanın içeriği Türkçedir.
 
-## ✨ Özellikler <a id="features"></a>
+## <a id="features"></a> ✨ Özellikler
 
-- **Modern ve Estetik Arayüz:** Kullanıcı dostu, modern renk paletleri ve akıcı tasarım öğeleri.
-- **İnteraktif Proje Vitrini:** Son geliştirilen projelere doğrudan bağlantılar ve etkileşimli alanlar.
-- **Mobil Uyumlu Tasarım:** Tüm ekran boyutlarında (mobil, tablet, masaüstü) kusursuz ve duyarlı görüntüleme.
+- **CV bölümleri**: Kişisel bilgiler, hakkımda, eğitim ve deneyim.
+- **Yetenekler**: Kullandığım yazılım teknolojileri ve tasarım araçları.
+- **Son projeler**: Son projelerime bağlantılar. Bunlardan biri modal pencerede bir video demosuyla açılır.
 
-## 🛠️ Teknolojiler <a id="technologies"></a>
+## <a id="tech"></a> 🛠️ Teknolojiler
 
-Projede kullanılan temel yazılım, kütüphane ve araçlar şunlardır:
+`React` · `Vite` · `Kintaro UI` · `CSS`
 
-- **React**: Bileşen tabanlı kullanıcı arayüzü kütüphanesi.
-- **Vite**: Hızlı ve modern frontend derleme aracı.
-- **kintaro-ui**: Kendi geliştirdiğim UI kütüphanesi.
-- **React Icons**: Modern vektör ikon kütüphanesi.
-- **gh-pages**: Projeyi doğrudan GitHub Pages üzerinde yayınlamak için kullanılan yardımcı paket.
+## <a id="setup"></a> 🚀 Kurulum
 
-## 🚀 Kurulum <a id="installation"></a>
+### Gereksinimler
 
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+- **Node.js**
 
-1. **Depoyu klonlayın:**
+### Adım Adım Kurulum
+
+1. **Depoyu klonlayın**
+
    ```bash
    git clone https://github.com/xkintaro/cv.git
    cd cv
    ```
 
-2. **Bağımlılıkları yükleyin:**
+2. **Bağımlılıkları yükleyin**
+
    ```bash
    npm install
    ```
 
-3. **Geliştirme sunucusunu başlatın:**
+   Windows'ta bunun yerine `install-dependencies.bat` dosyasını çalıştırabilirsiniz.
+
+3. **Geliştirme sunucusunu başlatın**
+
    ```bash
    npm run dev
    ```
-   Tarayıcınızda `http://localhost:5173` adresine giderek projeyi görüntüleyebilirsiniz.
 
-## 📄 Lisans <a id="license"></a>
+   Windows'ta bunun yerine `run.bat` dosyasını çalıştırabilirsiniz.
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Ayrıntılar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
+Uygulamayı şu adreste açın: [http://localhost:5173/cv/](http://localhost:5173/cv/).
+
+## <a id="license"></a> 📄 Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 
 #
 
